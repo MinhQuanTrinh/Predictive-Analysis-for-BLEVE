@@ -14,29 +14,49 @@ The 3D environment includes a variety of physical variables relevant to BLEVE sc
 such as temperature, pressure, gas-to-liquid ratio, and the dimensions of both the tank and
 the obstacle. The full list of input features is as follows:
 • Tank Failure Pressure: internal pressure at the time of BLEVE (in bar)
-• Liquid Ratio: ratio of liquid in the tank (coexistence of liquid and vapour)\n
-• Tank Width: tank width (in metres)\n
+
+• Liquid Ratio: ratio of liquid in the tank (coexistence of liquid and vapour)
+
+• Tank Width: tank width (in metres)
+
 • Tank Length: tank length (in metres)
+
 • Tank Height: tank height (in metres)
+
 • Vapour Height: vapour column height inside the tank (in metres)
+
 • BLEVE Height: height of the tank above ground level (in metres)
+
 • Vapour Temperature: temperature of vapour (in K)
+
 • Liquid Temperature: temperature of liquid (in K)
-• Obstacle Distance to BLEVE: distance between the obstacle and BLEVE source (in
-metres)
+
+• Obstacle Distance to BLEVE: distance between the obstacle and BLEVE source (in metres)
+
 • Obstacle Width: obstacle width (in metres)
+
 • Obstacle Height: obstacle height (in metres)
+
 • Obstacle Thickness: obstacle thickness (in metres)
-• Obstacle Angle: angle between the line connecting the centres of the obstacle and
-BLEVE and the horizontal axis (in degrees)
+
+• Obstacle Angle: angle between the line connecting the centres of the obstacle and BLEVE and the horizontal axis (in degrees)
+
 • Status: liquid state, either subcooled or superheated
-• Substance Critical Pressure: pressure required to liquefy vapour at the critical
-temperature (in bar)
+
+• Substance Critical Pressure: pressure required to liquefy vapour at the critical temperature (in bar)
+
 • Substance Boiling Temperature: boiling point at atmospheric pressure (in C)
+
 • Substance Critical Temperature: temperature above which vapour cannot be liquefied regardless of pressure (in C)
+
 • Sensor ID: unique identifier of the sensor (ranging from 1 to 27)
+
 • Sensor Position Side: side of the obstacle where the sensor is located
+
 • Sensor Position x: x-coordinate of the sensor (in metres)
+
 • Sensor Position y: y-coordinate of the sensor (in metres)
+
 • Sensor Position z: z-coordinate of the sensor (in metres)
+
 • Target Pressure: peak pressure to be predicted (in bar)
