@@ -14,8 +14,8 @@ The 3D environment includes a variety of physical variables relevant to BLEVE sc
 such as temperature, pressure, gas-to-liquid ratio, and the dimensions of both the tank and
 the obstacle. The full list of input features is as follows:
 • Tank Failure Pressure: internal pressure at the time of BLEVE (in bar)
-• Liquid Ratio: ratio of liquid in the tank (coexistence of liquid and vapour)
-• Tank Width: tank width (in metres)
+• Liquid Ratio: ratio of liquid in the tank (coexistence of liquid and vapour)\n
+• Tank Width: tank width (in metres)\n
 • Tank Length: tank length (in metres)
 • Tank Height: tank height (in metres)
 • Vapour Height: vapour column height inside the tank (in metres)
